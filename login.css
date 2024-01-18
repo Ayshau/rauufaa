@@ -1,0 +1,91 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+*{
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+}
+body{
+    background-image:url("BG.jpg");
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10px;  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+a{
+    text-decoration: none;
+    color: #031d58;
+    border: none;
+}
+i a{
+    color: #d9d9db;
+    padding: 0;
+}
+h2{
+    text-align: center;
+    color: #031d58;
+}
+.heading{
+    margin-bottom: -38px;
+}
+.card{
+    margin-top: 8.5%;
+    margin-left: 480px;
+    border-radius: 15px;
+    backdrop-filter: blur(15px);
+    width: fit-content;
+    padding: 20px;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+input{
+    border-left: 4px solid #031d58;
+    border-right:none;
+    border-bottom:4px solid #031d58;
+    border-top: none;
+    border-radius: 0px;
+    color: #031d58;
+    backdrop-filter: blur(15px);
+    font-weight: 700;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+label {
+    border:none;
+    display: block;
+    font-size: 24px;
+    margin-bottom: 6px;
+    color: #d9d9db;
+}
+.form{
+    margin-top: 4%;
+    margin-left: 6px;
+    color: #031d58;
+    border: none;
+    margin-bottom: 20px;
+}
+button{
+    margin-left: 44px;
+    background-color: #031d58;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #d9d9db;
+    width:80px;
+    padding:10px;
+    box-shadow: 1px 1px 0.1px #181818;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button:hover{
+    width: 45%;
+    background-color: #d9d9db;
+    border: 1px solid #031d58;
+    box-shadow: 1px 1px 0.1px #181818;
+    border-radius: 5px;
+    color: #031d58;
+    transition: all 0.4s ease-in;
+    align-items: center;
+}
+
